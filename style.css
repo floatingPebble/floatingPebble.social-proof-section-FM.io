@@ -203,13 +203,12 @@ h6 {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-block: 0;
+        padding-block: 4rem 0;
         background: url(images/bg-pattern-top-desktop.svg) top left no-repeat,
             url(images/bg-pattern-bottom-desktop.svg) top right no-repeat;
     }
 
     .top-part {
-        margin-top: 4rem;
         display: flex;
         justify-content: space-between;
     }
@@ -301,7 +300,7 @@ h6 {
     }
 }
 
-@media only screen and (max-width:1082px) and (min-width: 821px) {
+@media only screen and (max-width:1234px) and (min-width: 821px) {
     .card {
         padding: 1rem;
     }
