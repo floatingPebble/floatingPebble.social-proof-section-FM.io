@@ -209,6 +209,7 @@ h6 {
     }
 
     .top-part {
+        margin-top: 4rem;
         display: flex;
         justify-content: space-between;
     }
@@ -221,7 +222,7 @@ h6 {
     .headline {
         padding-right: 4.5rem;
         margin-inline: 0;
-        font-size: 3.1rem;
+        font-size: 3.5rem;
         line-height: 2.7rem;
     }
 
