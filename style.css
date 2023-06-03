@@ -87,3 +87,210 @@ h6 {
     font-family: 'League Spartan', sans-serif;
     font-size: 15px;
 }
+
+.main-container {
+    background-color: var(--WHITE);
+    width: 100%;
+    padding-inline: 1.63rem;
+    padding-block: 5.5rem 12.6rem;
+    background: url(images/bg-pattern-top-mobile.svg) top left no-repeat,
+        url(images/bg-pattern-bottom-mobile.svg) bottom right no-repeat;
+}
+
+.top-part {
+    text-align: center;
+}
+
+.headline {
+    color: var(--VERY-DARK-MAGENTA);
+    font-size: 2.7rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 2.15rem;
+    margin: 0 1rem 1.54rem 1rem;
+}
+
+.headline-description {
+    font-size: 1.305rem;
+    color: var(--DARK-GRAYISH-MAGENTA);
+    font-weight: 500;
+    letter-spacing: -1px;
+    line-height: 1.65rem;
+    margin-bottom: 2.65rem;
+}
+
+.rating-container {
+    background-color: var(--LIGHT-GRAYISH-MAGENTA);
+    border-radius: 0.52rem;
+    height: 5.22rem;
+    margin-bottom: 1.11rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.rating-stars {
+    display: flex;
+}
+
+.rating-stars>* {
+    margin-inline: 0.27rem;
+}
+
+.rating-description {
+    color: var(--VERY-DARK-MAGENTA);
+    font-size: 1.1rem;
+    line-height: 1rem;
+    font-weight: 700;
+}
+
+.card {
+    background-color: var(--VERY-DARK-MAGENTA);
+    color: var(--WHITE);
+    border-radius: 0.47rem;
+    padding: 2.64rem 2.1rem 2.1rem 2.1rem;
+    margin-bottom: 1.111rem;
+}
+
+.client-details {
+    display: flex;
+}
+
+.client-icon {
+    margin-right: 1.5rem;
+}
+
+.client-icon>* {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.name-and-verification {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.name {
+    font-size: 1.1rem;
+
+    font-weight: 500;
+}
+
+.verification {
+    font-size: 1.1rem;
+    line-height: 1.1rem;
+    color: var(--SOFT-PINK);
+}
+
+.client-testimony {
+    margin-top: 1.89rem;
+    font-size: 1.09rem;
+    line-height: 1.45rem;
+}
+
+@media screen and (min-width:601px) {
+    .main-container {
+        height: 100%;
+        padding-inline: 10.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-block: 0;
+        background: url(images/bg-pattern-top-desktop.svg) top left no-repeat,
+            url(images/bg-pattern-bottom-desktop.svg) top right no-repeat;
+    }
+
+    .top-part {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .headline-wrapper {
+        text-align: start;
+        max-width: 27rem;
+    }
+
+    .headline {
+        padding-right: 4.5rem;
+        margin-inline: 0;
+        font-size: 3.1rem;
+        line-height: 2.7rem;
+    }
+
+    .headline-description {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+    .ratings {
+        width: 35rem;
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rating-stars>* {
+        margin-inline: 0.3rem;
+    }
+
+    .ratings .rating-container:nth-child(1) {
+        align-self: flex-start;
+    }
+
+    .ratings .rating-container:nth-child(2) {
+        align-self: center;
+    }
+
+    .ratings .rating-container:nth-child(3) {
+        align-self: flex-end;
+    }
+
+    .rating-container {
+        flex-direction: row;
+        width: 80%;
+        height: 3.7rem;
+        justify-content: flex-start;
+    }
+
+    .rating-container>* {
+        margin-left: 1.8rem;
+    }
+
+    .bottom-part {
+        display: flex;
+        margin-top: 1.8rem;
+    }
+
+    .bottom-part>* {
+        width: 100%;
+    }
+
+    .bottom-part .card:nth-child(2) {
+        margin-inline: 2rem;
+        margin-top: 1rem;
+    }
+
+    .bottom-part .card:nth-child(3) {
+        margin-top: 2rem;
+    }
+
+    .card {
+        padding: 2.5rem 2.8rem 2rem 2.1rem;
+        height: 14.8em;
+    }
+
+    .name,
+    .verification,
+    .client-testimony,
+    .rating-description {
+        font-size: 1rem;
+    }
+
+    .client-testimony {
+        margin-top: 1.6rem;
+        line-height: 1.37;
+    }
+}
