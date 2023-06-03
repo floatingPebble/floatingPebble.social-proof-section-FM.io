@@ -203,7 +203,7 @@ h6 {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-block: 6rem 0;
+        padding-block: 1rem 0;
         background: url(images/bg-pattern-top-desktop.svg) top left no-repeat,
             url(images/bg-pattern-bottom-desktop.svg) top right no-repeat;
     }
@@ -266,7 +266,7 @@ h6 {
 
     .bottom-part {
         display: flex;
-        margin-top: 1.8rem;
+        margin-top: 4.8rem;
     }
 
     .bottom-part>* {
