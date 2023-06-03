@@ -203,7 +203,7 @@ h6 {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-block: 4rem 0;
+        padding-block: 6rem 0;
         background: url(images/bg-pattern-top-desktop.svg) top left no-repeat,
             url(images/bg-pattern-bottom-desktop.svg) top right no-repeat;
     }
@@ -219,10 +219,10 @@ h6 {
     }
 
     .headline {
-        padding-right: 4.5rem;
+        padding-right: 3rem;
         margin-inline: 0;
-        font-size: 3.5rem;
-        line-height: 2.7rem;
+        font-size: 3.8rem;
+        line-height: 2.9rem;
     }
 
     .headline-description {
@@ -232,7 +232,7 @@ h6 {
 
     .ratings {
         width: 35rem;
-        margin-top: 1rem;
+        margin-top: 2.5rem;
         display: flex;
         flex-direction: column;
     }
@@ -283,7 +283,7 @@ h6 {
     }
 
     .card {
-        padding: 2.5rem 2.8rem 2rem 2.1rem;
+        padding: 2.5rem 2.4rem 2rem 2.1rem;
         height: 14.8em;
     }
 
