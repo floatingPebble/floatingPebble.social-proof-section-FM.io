@@ -267,7 +267,7 @@ h6 {
 
     .bottom-part {
         display: flex;
-        margin-top: 2.6rem;
+        margin-top: 2.8rem;
     }
 
     .bottom-part>* {
@@ -285,7 +285,7 @@ h6 {
 
     .card {
         padding: 2.7rem 1.7rem 2rem 1.7rem;
-        height: 15.5em;
+        height: 15.8em;
     }
 
     .name {
