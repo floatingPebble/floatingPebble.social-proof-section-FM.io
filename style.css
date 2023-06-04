@@ -203,7 +203,7 @@ h6 {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-block: 1rem 0;
+        padding-block: 2.5rem 0;
         background: url(images/bg-pattern-top-desktop.svg) top left no-repeat,
             url(images/bg-pattern-bottom-desktop.svg) top right no-repeat;
     }
@@ -231,8 +231,8 @@ h6 {
     }
 
     .ratings {
-        width: 35rem;
-        margin-top: 2.5rem;
+        width: 37rem;
+        margin-top: 1rem;
         display: flex;
         flex-direction: column;
     }
@@ -266,7 +266,7 @@ h6 {
 
     .bottom-part {
         display: flex;
-        margin-top: 4.8rem;
+        margin-top: 3rem;
     }
 
     .bottom-part>* {
@@ -284,19 +284,23 @@ h6 {
 
     .card {
         padding: 2.5rem 2.4rem 2rem 2.1rem;
-        height: 14.8em;
+        height: 15em;
     }
 
     .name,
     .verification,
-    .client-testimony,
-    .rating-description {
+    .client-testimony {
         font-size: 1rem;
+    }
+
+    .rating-description {
+        font-weight: 700;
     }
 
     .client-testimony {
         margin-top: 1.6rem;
-        line-height: 1.37;
+        line-height: 1.41rem;
+        font-weight: 500;
     }
 }
 
