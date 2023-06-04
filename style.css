@@ -288,9 +288,13 @@ h6 {
         height: 15.2em;
     }
 
-    .name,
+    .name {
+        font-weight: 700;
+    }
+
     .verification {
         font-size: 1rem;
+        font-weight: 500;
     }
 
     .rating-description {
@@ -299,7 +303,7 @@ h6 {
 
     .client-testimony {
         margin-top: 1.6rem;
-        font-size: 1.05rem;
+        font-size: 1.1rem;
         line-height: 1.41rem;
         font-weight: 500;
     }
