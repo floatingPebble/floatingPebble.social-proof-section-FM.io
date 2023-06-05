@@ -228,7 +228,7 @@ h6 {
     .headline-description {
         font-size: 1.2rem;
         line-height: 1.5rem;
-        margin-top: 3rem;
+        margin-top: 3.6rem;
     }
 
     .ratings {
@@ -267,7 +267,7 @@ h6 {
 
     .bottom-part {
         display: flex;
-        margin-top: 1.3rem;
+        margin-top: 0.7rem;
     }
 
     .bottom-part>* {
